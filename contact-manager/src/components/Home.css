@@ -1,0 +1,30 @@
+.home-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #d5e4f4;
+}
+
+.home-title {
+    font-size: 30px;
+    font-weight: bold;
+    color: #007bff;
+    justify-content: center;
+}
+
+.home-link {
+    color: #535bf2;
+    text-decoration: none;
+    font-weight: 500;
+    
+    font-style: focus-visible; 
+        outline: 4px auto -webkit-focus-ring-color blue;
+}
+  
+
+.home-list-item:hover {
+    background-color: #f0f0f0;
+}
